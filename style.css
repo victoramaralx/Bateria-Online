@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.625rem;
+    background: url('backgroundcolorido2.jpg') center / cover no-repeat;
+  }
+
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .keys{
+        justify-content: center;
+        flex-direction: column;
+        background: url('backgroundcolorido2.jpg') center / cover ;
+    }
+}
+
+  .key {
+    border: .4rem solid #4c00ff;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .09s ease;
+    width: 10rem;
+    text-align: center;
+    color: #fffb00;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #eeff00;
+    box-shadow: 0 0 1rem #fff56a;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+    font-family: 'Monoton', cursive;
+  }
+
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #4c00ff;
+  }
+  
+  .footer {
+    color: white;
+    padding-bottom: 40px;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.footer a {
+    color: rgb(231, 231, 0);
+    text-decoration: none;
+}
+
+}
+
+
